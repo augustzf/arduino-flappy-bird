@@ -1,4 +1,4 @@
-// Arduino Flappy Bird hommage by augustzf
+// Arduino Flappy Bird homage by augustzf
 //
 // Dependencies: 
 // 1. Arduino board hooked up to a push button
@@ -23,7 +23,7 @@
 LedControl gMatrix = LedControl(DIN, CLK, CS, CHIPS);
 
 // gravity
-const float kG = 0.015;
+const float kG = 0.01;
 
 // button gives this much lift
 const float kLift = -0.005;
@@ -59,7 +59,7 @@ void startGame(boolean doit)
 {
   if (doit) {
     gInputEvent = gTimer.every(10, reactToUserInput);
-    gUpdateEvent = gTimer.every(100, updateParticlePosition);
+    gUpdateEvent = gTimer.every(50, updateParticlePosition);
     gTimer.after(2500, startWallOne);
     gTimer.after(4500, startWallTwo);
   } 
