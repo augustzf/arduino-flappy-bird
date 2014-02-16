@@ -1,4 +1,4 @@
-LED Matrix Flappy Bird hommage
+LED Matrix Flappy Bird homage
 ===================
 
 An interesting excercise in Arduino game programming using one button and an 8x8 LED matrix.
