@@ -12,5 +12,5 @@ To run this project you need the following:
 
 And here's how it looks.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=th1X8s5ao5s" target="_blank"><img src="http://img.youtube.com/vi/th1X8s5ao5s/0.jpg" 
-alt="LED Matrix Flappy Bird hommageE"/></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=mvZONxdJkp0" target="_blank"><img src="http://img.youtube.com/vi/mvZONxdJkp0/0.jpg" 
+alt="Arduino LED Matrix Flappy Bird homage"/></a>
