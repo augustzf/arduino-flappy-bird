@@ -49,7 +49,8 @@ void setup()
   gMatrix.shutdown(0, false);
   gMatrix.setIntensity(0, 8);
   gMatrix.clearDisplay(0);
-  pinMode (BUTTON_PIN, OUTPUT);
+  pinMode (BUTTON_PIN, INPUT);
+  pinMode(ON_BOARD_LED_PIN, OUTPUT);
   randomSeed(analogRead(0));
   gGame.state = STOPPED;
   gTimer.every(30, reactToUserInput);
