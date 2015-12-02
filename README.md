@@ -14,3 +14,5 @@ And here's how it looks.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=mvZONxdJkp0" target="_blank"><img src="http://img.youtube.com/vi/mvZONxdJkp0/0.jpg" 
 alt="Arduino LED Matrix Flappy Bird homage"/></a>
+
+Some cool people have extended this project even further, with bi-color LEDs and everything! Check it out at http://jollifactory.blogspot.no/2015/06/arduino-based-bi-color-led-matrix_13.html
